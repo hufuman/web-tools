@@ -1,0 +1,25 @@
+{
+  "name": "web-tools",
+  "version": "1.0.0",
+  "description": "tools to help web developper, like compressing images, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://test.com/web-tools.git"
+  },
+  "keywords": [
+    "js",
+    "images",
+    "compress"
+  ],
+  "author": "hufuman",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "tinify": "^1.7.1"
+  },
+  "bin": "./index.js"
+}
